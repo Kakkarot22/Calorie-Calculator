@@ -1,0 +1,39 @@
+h1{
+
+    font-weight: 600;
+}
+p{
+    font-size: 16px;
+    
+}
+.additem{
+    box-sizing: border-box;
+    margin: 80px 500px;
+    padding: 30px 50px;
+    font-size: 20px;
+    font-weight: 600;
+    background: #c3c3c3;
+}
+.additem-items{
+    height: 80px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 25px;
+}
+.additem-items input{
+    outline: none;
+    border: 1px solid #c3c3c3;
+}
+
+.additem button{
+    width: 200px;
+    cursor: pointer;
+    height: 20px;
+    background: black;
+    color: lightcyan;
+}
+.additem button:hover{
+    background: lightcyan;
+    color: black;
+}
