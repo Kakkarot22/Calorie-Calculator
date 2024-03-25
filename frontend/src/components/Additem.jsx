@@ -17,7 +17,7 @@ const Additem = () => {
 
   const sendItem = async () => {
     console.log(item);
-    await fetch("http://localhost:4000/additem", {
+    await fetch("https://calorie-calculator-tlm1.onrender.com/additem", {
       method: "Post",
       headers: {
         Accept: "application/json",
